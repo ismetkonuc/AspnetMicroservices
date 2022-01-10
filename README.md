@@ -16,7 +16,13 @@ Catalog microservice which includes;
  - Repository Pattern Implementation
  - Swagger Open API implementation
 
+Basket microservice which includes;
 
+ - ASP.NET Core Web API application
+ - REST API principles, CRUD operations
+ - Redis database connection and containerization
+ - Repository Pattern Implementation
+ - Swagger Open API implementation
 ## Run The Project
 
 You will need the following tools:
@@ -41,5 +47,5 @@ Follow these steps to get your development environment set up: (Before Run Start
 
 - You can launch microservices as below urls:
     - Catalog API -> http://host.docker.internal:8000/swagger/index.html
-
+    - Basket API -> http://host.docker.internal:8001/swagger/index.html
   
