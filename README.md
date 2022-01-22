@@ -23,6 +23,13 @@ Basket microservice which includes;
  - Redis database connection and containerization
  - Repository Pattern Implementation
  - Swagger Open API implementation
+
+Discount microservice which includes;
+
+ - Using Dapper for micro-orm implementation to simplify data access and ensure high performance
+ - PostgreSQL database connection and containerization
+ - Repository Pattern Implementation
+ - Swagger Open API implementation
 ## Run The Project
 
 You will need the following tools:
@@ -48,4 +55,7 @@ Follow these steps to get your development environment set up: (Before Run Start
 - You can launch microservices as below urls:
     - Catalog API -> http://host.docker.internal:8000/swagger/index.html
     - Basket API -> http://host.docker.internal:8001/swagger/index.html
+    - Discount API -> http://host.docker.internal:8002/swagger/index.html
+    - Portainer -> http://host.docker.internal:9000 -- admin/admin123
+    - pgAdmin PostgreSQL -> http://host.docker.internal:5050 -- admin/admin1234
   
